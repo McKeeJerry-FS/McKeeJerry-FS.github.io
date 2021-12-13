@@ -49,10 +49,51 @@
         </form>
     </div>
     <hr />
+    <div id="demo">
+        <div id="header">
+                <h1>Tip Calculator (a fully functional demo)</h1>
+                <hr>
+                <br>
+                <p>This application is designed to help you figure out what the tip amount is to be paid and how much the tip will be split amongst the number of people on the check.</p>
+                <h3>Instructions:</h3>
+                <p>Enter in the amount of the total check in dollars and cents (0.00). Rate your service by choosing from the options in the menu. Next, enter the amount of people that will be contributing to the tip. Then click on the "Calculate" button. </p>
+        </div>
+    </div>
+    <div>
+        <h2>Tip Calculator</h2>
+        <div>
+            <p>Bill Amount</p>
+            <input type="text" id="amount" 
+            placeholder="Amount to be paid"> $
+            <p>How was the service ?</p>
+            <select id="services">
+                <option selected disabled hidden>
+                    Select
+                    </option>
+                    <option value="0.25">25% - Top Notch</option>
+                    <option value="0.20">20% - Excellent</option>
+                    <option value="0.15">15% - Good</option>
+                    <option value="0.10">10% - Bad</option>
+                    <option value="0.05">5% - Worst</option>
+                </select>
+                <p>Total number of persons</p>
+                <input type="text" id="persons"
+                placeholder="Number of people sharing the bill">
+                <button id="calculate">Calculate</button>
+            </div>
+            <div class="tip">
+                <p>Tip Amount</p>
+                $<span id="total">0</span>
+                <span id="each">each</span>
+            </div>
+        </div>
+    </div>
+    <hr />
     <div>
         <footer>
             <img id="badge" src="/img/name_logo.png" height="50px" alt="brand name">
         </footer>
     </div>
+    <script src="/js/main.js"></script>
 </body>
 </html>
