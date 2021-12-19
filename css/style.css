@@ -1,3 +1,4 @@
+/* General */
 body{
     
     color: white;
@@ -14,13 +15,13 @@ body{
     margin: 1em;
 }
 
+/* pertaining to Links */
 a {
     color: chartreuse;
 }
 a:hover {
     color: mediumturquoise;
 }
-
 
 #cover {
     margin: auto;
@@ -40,7 +41,6 @@ a:hover {
     
 }
 
-
 h1 {
     color: chartreuse;
 }
@@ -49,9 +49,6 @@ h1 {
     margin: auto;
     padding-left: 32em;
     
-}
-footer {
-    justify-items: center;
 }
 
 #application {
@@ -69,6 +66,8 @@ hr {
     padding: 3px;
     background-color: skyblue;
 }
+
+/* pertaining to the Project Div */
 ul {
     list-style: none;
 }
@@ -98,4 +97,32 @@ ul {
     padding: 2em;
     background-color: skyblue;
 
+}
+
+/* pertaining to the Contact Div */
+#nameInput {
+    margin-left: 22px;
+}
+#subjectInput{
+    margin-left: 13px;
+}
+#emailInput {
+    margin-left: 15px;
+}
+#messageInput {
+    margin-left: 5px;
+}
+Button {
+    margin-top: 1em;
+}
+#submitButton:hover {
+    background-color: springgreen;
+}
+#resetButton:hover {
+    background-color: tomato;
+}
+
+/* pertaining to the Footer Div */
+footer {
+    justify-items: center;
 }

@@ -48,4 +48,7 @@ function calculateTip() {
 	document.querySelector('#total').innerHTML = total;
 }
 
-alert('Contact Form COMING SOON!!!');
+document.getElementById('submitButton').onclick.submit();
+document.getElementById('resetButton').onclick.reset();
+
+
