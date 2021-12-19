@@ -1,24 +1,60 @@
 body{
+    
     color: white;
     background-color: black;
 }
 
 #logo{
+    
     height: 5px;
+    margin: 1em;
 }
 
 a {
     color: chartreuse;
 }
-
-.cover {
-    align-items: center;
+a:hover {
+    color: mediumturquoise;
 }
+a:visited {
+    color: purple;
+}
+
+#cover {
+    margin: auto;
+    width: auto;
+    padding-top: 2em;
+    padding-left: 23em;
+    
+}
+
+
 
 h1 {
     color: chartreuse;
 }
 
-.badge {
-    align-items: center;
+#badge {
+    margin: auto;
+    padding-left: 32em;
+    
+}
+footer {
+    justify-items: center;
+}
+
+#application {
+    margin: auto;
+    width: 25em;
+    border: 3px rgb(226, 171, 70) solid;
+    padding: 15px;
+    background-color: steelblue;
+    
+}
+
+hr {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    padding: 3px;
+    background-color: skyblue;
 }

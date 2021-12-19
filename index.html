@@ -9,8 +9,9 @@
 </head>
 <body>
     <div>
-        <nav>
-            <img src="/img/icon_logo.png" alt="brand logo icon" height="50px" id="icon">  <a href="*">Home</a> * <a href="*"> About Me</a> * <a href="*">Projects / Code Challenges</a> * <a href="*">Contact Me</a> 
+        <img src="/img/icon_logo.png" alt="brand logo icon" height="50px" id="icon">  
+        <nav id="home">
+            <a href="*">Home</a> * <a href="#about"> About Me</a> * <a href="#projects">Projects / Code Challenges</a> * <a href="#contact">Contact Me</a> * <a href="#demo">Tip Calculator</a> 
         </nav>
     </div>
     <div>
@@ -40,6 +41,7 @@
             <li><a href="https://jmj-retract.netlify.app" target="_blank">Retract</a></li>
             <li><a href="https://jmj-battleship.netlify.app" target="_blank">Battleship</a></li>
         </ul>
+        <a href="#home">Back to top</a>
     </div>
     <hr />
     <div id="contact">
@@ -47,6 +49,7 @@
         <form>
             (form to come soon...)
         </form>
+        <a href="#home">Back to top</a>
     </div>
     <hr />
     <div id="demo">
@@ -59,7 +62,7 @@
                 <p>Enter in the amount of the total check in dollars and cents (0.00). Rate your service by choosing from the options in the menu. Next, enter the amount of people that will be contributing to the tip. Then click on the "Calculate" button. </p>
         </div>
     </div>
-    <div>
+    <div id="application">
         <h2>Tip Calculator</h2>
         <div>
             <p>Bill Amount</p>
@@ -78,7 +81,7 @@
                 </select>
                 <p>Total number of persons</p>
                 <input type="text" id="persons"
-                placeholder="Number of people sharing the bill">
+                placeholder="Number of people">
                 <button id="calculate">Calculate</button>
             </div>
             <div class="tip">
@@ -88,10 +91,11 @@
             </div>
         </div>
     </div>
+    <a href="#home">Back to top</a>
     <hr />
     <div>
         <footer>
-            <img id="badge" src="/img/name_logo.png" height="50px" alt="brand name">
+            <em>Jay's Tech Journey</em>, &copy Copyright 2021 <img id="badge" src="/img/name_logo.png" height="50px" alt="brand name">
         </footer>
     </div>
     <script src="/js/main.js"></script>
