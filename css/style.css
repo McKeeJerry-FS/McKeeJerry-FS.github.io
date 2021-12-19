@@ -4,6 +4,10 @@ body{
     background-color: black;
 }
 
+#home {
+    padding-bottom: 1em;
+}
+
 #logo{
     
     height: 5px;
@@ -16,18 +20,25 @@ a {
 a:hover {
     color: mediumturquoise;
 }
-a:visited {
-    color: purple;
-}
+
 
 #cover {
     margin: auto;
     width: auto;
-    padding-top: 2em;
+    padding-top: 10em;
     padding-left: 23em;
+    opacity: 85%;
+    
     
 }
-
+#homeImg {
+    background-image: url(/img/Workspace.png);
+    background-position:center;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    height: 600px;
+    
+}
 
 
 h1 {
@@ -57,4 +68,34 @@ hr {
     margin-bottom: 1em;
     padding: 3px;
     background-color: skyblue;
+}
+ul {
+    list-style: none;
+}
+
+#centennial {
+    width: 300px;
+    margin-left: 40em;
+    border: 3px silver solid;
+    padding: 2em;
+    background-color: skyblue;
+}
+
+#retract {
+    width: 300px;
+    margin-left: 40em;
+    margin-top: 10px;
+    border: 3px silver solid;
+    padding: 2em;
+    background-color: skyblue;
+}
+
+#battleship {
+    width: 300px;
+    margin-left: 40em;
+    margin-top: 10px;
+    border: 3px silver solid;
+    padding: 2em;
+    background-color: skyblue;
+
 }
