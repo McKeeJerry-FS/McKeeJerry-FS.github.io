@@ -1,3 +1,4 @@
+// JavaScript for the Tip Calculator 
 window.onload = () =>
 	//the function called when Calculate button is clicked.
 	{
@@ -48,6 +49,7 @@ function calculateTip() {
 	document.querySelector('#total').innerHTML = total;
 }
 
+// JavaScript for the events pertaining to the buttons in the form
 document.getElementById('submitButton').onclick.submit();
 document.getElementById('resetButton').onclick.reset();
 
